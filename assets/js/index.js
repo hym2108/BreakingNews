@@ -49,6 +49,7 @@ function renderAvatar(user) {
     if (user.user_pic !== null) {
         // 渲染图片头像
         $('.layui-nav-img').attr('src', user.user_pic).show()
+        $('.text-avatar').hide()
     } else {
         // 渲染文本头像
         $('.layui-nav-img').hide()
