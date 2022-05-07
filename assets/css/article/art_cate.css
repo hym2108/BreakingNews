@@ -1,0 +1,22 @@
+body {
+    background-color: #f2f3f5;
+    padding: 10px;
+}
+
+#form-add,#form-edit {
+    margin-top: 20px;
+}
+
+.layui-form-label {
+    width: 90px;
+}
+
+.layui-input {
+    width: 80%;
+}
+
+.layui-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
